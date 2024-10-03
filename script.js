@@ -9,6 +9,7 @@ document.getElementById("menu-icon").addEventListener("click", () => {
 
 document.getElementById("close-icon").addEventListener("click", () =>{
     openMenu.style.display = "none"
+    
 });
 
 

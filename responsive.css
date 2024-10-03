@@ -27,73 +27,118 @@
       height: 80vh;
     }
     .hero h1 {
-      font-size: 4vw;
+      font-size: 7vw;
     }
     .hero p {
-      font-size: 1.5vw;
+      font-size: 3.5vw;
     }
   
-    /* Main */
-    .main {
-      height: 180vh;
+    .main-1st-right {
+      padding: 0vw;    
     }
+    /* Main */
+
     .main-1st {
       height: 80vh;
     }
+    .mian-1st {
+      flex-direction: column;
+    }
+
+    .main-1st-right img{
+      margin-top: 5vw;
+      height: 53vw;
+    }
+
     .main-1st-left {
-      width: 80%;
+      width: 100%;
+    }
+    #button-errow {
+      position: absolute;
+      height: 22px;
+      top: 5px;
+      left: 5px;
     }
     .main-1st-left button {
-      font-size: 1.5vw;
+      margin-top: 20px;
+      font-size: 4.5vw;
     }
     .main-1st-left h3 {
-      font-size: 2.5vw;
+      font-size: 4.5vw;
     }
     .left-boxes {
-      height: 8vw;
+      height: 24vw;
     }
     .box-text h4 {
-      font-size: 1.5vw;
+      font-size: 4vw;
     }
     .main-1st-right img {
-      height: 25vw;
+      height: 65vw;
     }
   
+    .main-1st-right {
+      height: 100%;
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
     /* Other sections */
     .mian-2nd {
-      padding: 20vw 0;
+      padding: 6vw 0;
+      width: 90%;
     }
     .comment-box {
       width: 30%;
     }
     .comment-box i {
-      font-size: 2vw;
+      font-size: 5vw;
     }
     .comment-box h3 {
-      font-size: 2vw;
+      font-size: 4vw;
     }
+    .comment-box p{
+      font-size: 3.5vw;
+      text-align: center;      
+    }
+
     .main-3rd {
       height: 80vh;
     }
     .ourwork-text h3 {
-      font-size: 2.5vw;
+      font-size: 5.5vw;
     }
     .ourwork-text p {
-      font-size: 1.2vw;
+      font-size: 3.5vw;
     }
     .work-boxes {
       height: 200px;
-    }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5vw;
+      flex-wrap: wrap;
+   }
     .boxes {
-      width: 30%;
+      width: 32%;
     }
     .boxes h4 {
-      font-size: 1.5vw;
+      font-size: 3.5vw;
     }
     .boxes p {
-      font-size: 1.2vw;
+      font-size: 2.5vw;
     }
   
+    .ourwork-text button {
+      margin-top: 8vw;
+      padding: 12px 31px;
+      border-radius: 48px;
+      border: none;
+      cursor: pointer;
+      font-size: 4.3vw;
+  }
     /* Portfolio */
     .portfolio {
       height: 120vh;
@@ -204,9 +249,23 @@
 
   }
 
-    
   .hero img {
     height: 60vw;
+
+  }
+
+  #close-icon{
+    font-size: 8vw;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 2px;
+    border-radius: 50px;
+    background-color: rgb(83, 83, 83);
+  }
+
+  #phone-logo{
+  display: flex;
   }
 }
 

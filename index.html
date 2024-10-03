@@ -11,7 +11,7 @@
 <body>
     
     <div class="container">
-        <div class="header">
+        <div id="home" class="header">
 
             <div class="logo phone-none">
                 <i class="ri-arrow-right-up-line"></i>
@@ -20,10 +20,10 @@
             <div class="navbar phone-none">
                 <ul>
                     <li><a href="#"><span>Home</span></a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Blogs">Blogs</a></li>
+                    <li><a href="#contact-form">Contact Us</a></li>
                 </ul>
             </div>
             <div class="cartbtn phone-none">
@@ -34,25 +34,24 @@
                     <span class="arrow-icon"><i class="ri-arrow-right-up-line"></i></span>
                 </button>
             </div>
-        
-            <i id="menu-icon" class="ri-menu-3-line"></i>
+
             <!-- phone-header  -->
+            <div id="phone-logo" class="logo">
+                <i class="ri-arrow-right-up-line"></i>
+                <h2>Rinterio</h2>
+            </div>
+            <i id="menu-icon" class="ri-menu-3-line"></i>
             <div id="phone-header" class="phone-header">
                 
-                <div class="logo">
-                    <i class="ri-arrow-right-up-line"></i>
-                    <h2>Rinterio</h2>
-        
-                    <i id="close-icon" class="ri-menu-3-line"></i>
-        
-                </div>
+                <i id="close-icon" class="ri-close-line"></i>
+              
                 <div class="navbar">
                     <ul>
-                        <li><a href="#"><span>Home</span></a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#"><span id="phone-home">Home</span></a></li>
+                        <li><a href="#Service">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#Blogs">Blogs</a></li>
+                        <li><a href="#contact-form">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="cartbtn">
@@ -85,7 +84,7 @@
         <!-- ◥█ ============  Hero END    ========== █◤ -->
 
         <!-- ◢█ ============  Main START    ===========█◣ -->
-        <div class="main">
+        <div id="Service" class="main">
             <div class="mian-1st">
                 <div class="main-1st-left">
                     <img id="button-errow" src="./assets/Vector.png" alt="right-arrow">
@@ -182,7 +181,7 @@
         </div>
         <!-- /*◥█ ============  Main END    ========== █◤*/ -->
 
-        <div class="portfolio">
+        <div id="portfolio" class="portfolio">
             <div class="portfolio-text">
                 <button><span><i class="ri-arrow-right-line"></i></span>Explore our Latest works</button>
                 <h3> Our Latest Portfolio</h3>
@@ -224,7 +223,7 @@
         </div>
             <!-- /*◥█ ============  Portfolio END    ========== █◤*/ -->
 
-        <div class="news-content">
+        <div id="Blogs" class="news-content">
             <div class="news-text">
                 <button><span><i class="ri-arrow-right-line"></i></span>Rinterio News</button>
                 <h4>Read Our Articles and News</h4>
@@ -272,7 +271,7 @@
         </div>
         <!--◥█ ============  News Content END    ========== █◤-->
         
-        <div class="contact-form">
+        <div id="contact-form" class="contact-form">
             <div class="contact-img">
                 <div class="contact-text">
                     <button id="contact-btn"><span><i class="ri-arrow-right-line"></i></span>Let's Connect</button>
@@ -288,7 +287,7 @@
                             <input type="text" name="last_name" placeholder="Last Name*" class="input-field" required>
                         </div>
                         <div class="form-row">
-                            <input type="tel" name="phone_number" placeholder="Phone Number*" class="input-field" required>
+                            <input type="number" name="phone_number" placeholder="Phone Number*" class="input-field" required>
                             <input type="email" name="email" placeholder="Email Number*" class="input-field" required>
                         </div>
                         <div class="form-row">

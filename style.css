@@ -8,9 +8,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #EDEDED;
-    /* background-color: grey; */
 }
 
 .header{
@@ -266,9 +269,10 @@ body{
 
 .main-1st-right{
     padding: 3vw;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    margin: 0 auto;
 }
 
 .main-1st-right img{
@@ -724,6 +728,9 @@ body{
     margin-top: 1.5vw;
 
 }
+.input-field:focus{
+    outline: 3px solid #8CE949;
+}
 
 .textarea-field {
     width: 100%;
@@ -736,6 +743,18 @@ body{
     min-height: 200px;
     resize: none;
     margin: 2vw 0;
+    
+}
+
+
+    /* apprance none for Number  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.textarea-field:focus{
+    outline: 3px solid #8CE949;
     
 }
 
@@ -842,6 +861,7 @@ footer p{
     transition:ease-in-out 0.7s;
     display:none;
     border-radius: 0px 0px 20px 20px;
+    padding-top: 9vw;
 }
 
 .phone-header .navbar ul{
@@ -855,23 +875,24 @@ footer p{
    margin-top: 20px;
 }
 
-.phone-header .logo i {
+.phone-header .navbar ul li a:hover{
+   color: #92e921;
+}
+#phone-home{
+    color: #92e921;
+}
+
+#phone-logo{
+    display: none;
+}
+
+#phone-logo i{
     font-size: 7vw;
-
 }
 
-.phone-header .logo{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.phone-header .logo h2 {
+#phone-logo h2{
     font-size: 7vw;
-
 }
-
 
 .phone-header #cartbtn{ 
     font-size: 5vw;
@@ -879,11 +900,7 @@ footer p{
 
 #menu-icon{
     display: none;
-    
-
-    
 }
-
 
 .desktop-header{
     display: flex;
