@@ -6,16 +6,18 @@
     <title>Rinterio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     
     <div class="container">
         <div class="header">
-            <div class="logo">
+
+            <div class="logo phone-none">
                 <i class="ri-arrow-right-up-line"></i>
                 <h2>Rinterio</h2>
             </div>
-            <div class="navbar">
+            <div class="navbar phone-none">
                 <ul>
                     <li><a href="#"><span>Home</span></a></li>
                     <li><a href="#">Service</a></li>
@@ -24,7 +26,7 @@
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="cartbtn">
+            <div class="cartbtn phone-none">
                 <i id="cartbtn" class="ri-search-line"></i>
                 <i id="cartbtn" class="ri-shopping-cart-2-line"></i>
                 <button class="book-consult-button">
@@ -32,10 +34,42 @@
                     <span class="arrow-icon"><i class="ri-arrow-right-up-line"></i></span>
                 </button>
             </div>
+        
+            <i id="menu-icon" class="ri-menu-3-line"></i>
+            <!-- phone-header  -->
+            <div id="phone-header" class="phone-header">
+                
+                <div class="logo">
+                    <i class="ri-arrow-right-up-line"></i>
+                    <h2>Rinterio</h2>
+        
+                    <i id="close-icon" class="ri-menu-3-line"></i>
+        
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#"><span>Home</span></a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="cartbtn">
+                    <i id="cartbtn" class="ri-search-line"></i>
+                    <i id="cartbtn" class="ri-shopping-cart-2-line"></i>
+                    <button class="book-consult-button">
+                        Book Consult
+                        <span class="arrow-icon"><i class="ri-arrow-right-up-line"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
 
-        </div> 
+
         <!-- ◥█ ============  Header END    ========== █◤ -->
 
+        <!-- ◢█ ============  Hero START    ===========█◣ -->
         <div class="hero">
             <img src="./assets/banner.png" alt="mainHome.pnd">
             <h1>A barn house of this design has a
@@ -49,7 +83,6 @@
                 </button>
         </div> 
         <!-- ◥█ ============  Hero END    ========== █◤ -->
-
 
         <!-- ◢█ ============  Main START    ===========█◣ -->
         <div class="main">
@@ -269,8 +302,8 @@
         </div>
         <!--◥█ ============  Contact Form END    ========== █◤-->
 
+        <!-- footer  -->
         <footer>
-        
             <div class="logo" id="footer-logo">
                 <i class="ri-arrow-right-up-line"></i>
                 <h2>Rinterio</h2>
@@ -292,11 +325,8 @@
                 Book Consult
                 <span class="arrow-icon"><i class="ri-arrow-right-up-line"></i></span>
             </button>
-            
-            
         </footer>
     </div>
-
 
     <script src="./script.js"></script>
 </body>

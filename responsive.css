@@ -1,0 +1,212 @@
+/* Add this to the existing code */
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 768px) {
+    /* Header */
+    .header {
+      height: 80px;
+    }
+    .logo h2 {
+      font-size: 3vw;
+    }
+    .navbar ul {
+      gap: 2vw;
+    }
+    .navbar li a {
+      font-size: 1.2vw;
+    }
+    .cartbtn {
+      gap: 1vw;
+    }
+    #cartbtn {
+      font-size: 1.2vw;
+    }
+  
+    /* Hero */
+    .hero {
+      height: 80vh;
+    }
+    .hero h1 {
+      font-size: 4vw;
+    }
+    .hero p {
+      font-size: 1.5vw;
+    }
+  
+    /* Main */
+    .main {
+      height: 180vh;
+    }
+    .main-1st {
+      height: 80vh;
+    }
+    .main-1st-left {
+      width: 80%;
+    }
+    .main-1st-left button {
+      font-size: 1.5vw;
+    }
+    .main-1st-left h3 {
+      font-size: 2.5vw;
+    }
+    .left-boxes {
+      height: 8vw;
+    }
+    .box-text h4 {
+      font-size: 1.5vw;
+    }
+    .main-1st-right img {
+      height: 25vw;
+    }
+  
+    /* Other sections */
+    .mian-2nd {
+      padding: 20vw 0;
+    }
+    .comment-box {
+      width: 30%;
+    }
+    .comment-box i {
+      font-size: 2vw;
+    }
+    .comment-box h3 {
+      font-size: 2vw;
+    }
+    .main-3rd {
+      height: 80vh;
+    }
+    .ourwork-text h3 {
+      font-size: 2.5vw;
+    }
+    .ourwork-text p {
+      font-size: 1.2vw;
+    }
+    .work-boxes {
+      height: 200px;
+    }
+    .boxes {
+      width: 30%;
+    }
+    .boxes h4 {
+      font-size: 1.5vw;
+    }
+    .boxes p {
+      font-size: 1.2vw;
+    }
+  
+    /* Portfolio */
+    .portfolio {
+      height: 120vh;
+    }
+    .portfolio-text h3 {
+      font-size: 2.5vw;
+    }
+    .portfolio-text p {
+      font-size: 1.2vw;
+    }
+    .fortfolio-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .card {
+      width: 40%;
+    }
+    .card img {
+      height: 150px;
+      width: 200px;
+    }
+    .card-content {
+      padding: 10px;
+    }
+    .card-title {
+      font-size: 1.2vw;
+    }
+    .card-description {
+      font-size: 1vw;
+    }
+  
+    /* News Content */
+    .news-content {
+      height: 100vh;
+    }
+    .news-text h4 {
+      font-size: 2.5vw;
+    }
+    .news-text p {
+      font-size: 1.2vw;
+    }
+    .wrapper {
+      flex-wrap: wrap;
+    }
+    .item {
+      width: 40%;
+    }
+    .item-image {
+      height: 10vw;
+      width: 15vw;
+    }
+    .item-content span i {
+      font-size: 1.5vw;
+    }
+    .item-meta {
+      font-size: 1vw;
+    }
+    .item-heading {
+      font-size: 1.5vw;
+    }
+    .item-text {
+      font-size: 1.2vw;
+    }
+  
+    /* Contact Form */
+    .contact-form {
+      height: 100vh;
+    }
+    .contact-text h3 {
+      font-size: 2.5vw;
+    }
+    .contact-text p {
+      font-size: 1.2vw;
+    }
+    .form-container {
+      width: 80%;
+    }
+    .input-field {
+      padding: 10px 15px;
+      font-size: 1.2vw;
+    }
+    .textarea-field {
+      min-height: 150px;
+    }
+    .submit-button {
+      font-size: 1.5vw;
+    }
+  
+    /* Footer */
+    footer {
+      height: 50vh;
+    }
+    footer p {
+      font-size: 1.2vw;
+    }
+}    
+
+@media (max-width: 900px) {
+  #menu-icon{
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 6vw;
+  }
+
+  .phone-none{
+    display: none;
+
+  }
+
+    
+  .hero img {
+    height: 60vw;
+  }
+}
+

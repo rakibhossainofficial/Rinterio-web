@@ -156,6 +156,7 @@ body{
 
 }
 
+
 .hero h1{
     font-size: 5vw;
     text-align: center;
@@ -818,4 +819,74 @@ footer p{
 
 .footer-nav ul{
  gap: 8vw;
+}
+
+
+/* phone header  */
+
+.phone-header{
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter:  blur(10px );
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+    z-index: 11;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 3vw;
+    transition:ease-in-out 0.7s;
+    display:none;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.phone-header .navbar ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-header .navbar ul li a{
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+   margin-top: 20px;
+}
+
+.phone-header .logo i {
+    font-size: 7vw;
+
+}
+
+.phone-header .logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone-header .logo h2 {
+    font-size: 7vw;
+
+}
+
+
+.phone-header #cartbtn{ 
+    font-size: 5vw;
+}
+
+#menu-icon{
+    display: none;
+    
+
+    
+}
+
+
+.desktop-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
