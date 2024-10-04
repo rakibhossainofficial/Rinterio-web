@@ -37,6 +37,9 @@
       padding: 0vw;    
     }
     /* Main */
+    .main{
+      height: 200vh;
+    }
 
     .main-1st {
       height: 80vh;
@@ -67,8 +70,9 @@
       font-size: 4.5vw;
     }
     .left-boxes {
-      height: 24vw;
-    }
+      height: 28vw;
+      width: 100%;
+  }
     .box-text h4 {
       font-size: 4vw;
     }
@@ -121,16 +125,25 @@
       gap: 5vw;
       flex-wrap: wrap;
    }
-    .boxes {
-      width: 32%;
-    }
+   .boxes {
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+    padding: 4vw;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
     .boxes h4 {
-      font-size: 3.5vw;
+      font-size: 4vw;
     }
+
     .boxes p {
-      font-size: 2.5vw;
+      font-size: 3.5vw;
+      text-align: start;
     }
-  
+    
     .ourwork-text button {
       margin-top: 8vw;
       padding: 12px 31px;
@@ -138,93 +151,153 @@
       border: none;
       cursor: pointer;
       font-size: 4.3vw;
-  }
+    }
     /* Portfolio */
+
     .portfolio {
-      height: 120vh;
+      height: 100vh;
     }
     .portfolio-text h3 {
-      font-size: 2.5vw;
+      font-size: 5.5vw;
     }
     .portfolio-text p {
-      font-size: 1.2vw;
+      font-size: 3vw;
+      text-align: center;
+      width: 100%;
+      padding: 1vw;
     }
+
+    .portfolio-text button {
+      margin-top: 3vw;
+      padding: 9px 13px;
+      border-radius: 24px;
+      font-size: 3.5vw;
+
+  }
     .fortfolio-content {
       grid-template-columns: repeat(2, 1fr);
     }
     .card {
-      width: 40%;
+      width: 100%;
     }
     .card img {
-      height: 150px;
-      width: 200px;
+        height: 150px;
+        width: 147px;
+        border-radius: 2vw;
     }
     .card-content {
       padding: 10px;
     }
     .card-title {
-      font-size: 1.2vw;
+      font-size: 4.5vw;
     }
     .card-description {
-      font-size: 1vw;
+      font-size:2.5vw;
     }
   
     /* News Content */
     .news-content {
-      height: 100vh;
+      height: 145vh;
+    }
+
+    .news-text button {
+      margin: 2vw 0;
+      padding: 9px 9px;
+      border-radius: 18px;
+      border: none;
+      cursor: pointer;
+      font-size: 5.3vw;
+      background-color: rgba(202, 247, 135, 0.616);
     }
     .news-text h4 {
-      font-size: 2.5vw;
+      font-size: 5.5vw;
     }
     .news-text p {
-      font-size: 1.2vw;
-    }
-    .wrapper {
-      flex-wrap: wrap;
-    }
-    .item {
-      width: 40%;
-    }
-    .item-image {
-      height: 10vw;
-      width: 15vw;
-    }
-    .item-content span i {
-      font-size: 1.5vw;
-    }
+      font-size: 4vw;
+      width: 100%;
+      padding: 0;
+  }
+  .wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item {
+  width: 70%;
+  height: 75vw;
+}
+.item-image {
+  height: 33vw;
+  width: 100%;
+  object-fit: contain;
+  /* background-size: cover; */
+}
+.item-content {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item-content span i {
+  font-size: 3.5vw;
+}
     .item-meta {
-      font-size: 1vw;
+      font-size: 3vw;
     }
     .item-heading {
-      font-size: 1.5vw;
+      font-size: 3.5vw;
+      text-align: center;
     }
     .item-text {
-      font-size: 1.2vw;
+      font-size: 2vw;
+      text-align: center;
     }
   
     /* Contact Form */
+    #contact-btn {
+      padding: 8px 14px;
+      font-size: 5.3vw;
+    }
     .contact-form {
       height: 100vh;
     }
     .contact-text h3 {
-      font-size: 2.5vw;
+      font-size: 5.5vw;
     }
     .contact-text p {
-      font-size: 1.2vw;
-    }
+      font-size: 3.2vw;
+      width: 100%;
+      padding: 0;
+  }
+
+  .form-row {
+    display: table-row;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 17px;
+    width: 110%;
+  }
     .form-container {
       width: 80%;
     }
+    
     .input-field {
-      padding: 10px 15px;
-      font-size: 1.2vw;
+      padding: 25px 20px;
+      margin-top: 3vw;
     }
     .textarea-field {
-      min-height: 150px;
+      margin-top: 5vw 0;
     }
     .submit-button {
-      font-size: 1.5vw;
-    }
+      font-size: 3.5vw;
+      padding: 5vw;
+  }
+  .submit-button span i{
+    font-size: 4vw;
+  }
   
     /* Footer */
     footer {
