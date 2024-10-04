@@ -1,19 +1,17 @@
-/* Add this to the existing code */
-
 /* Mobile devices (portrait and landscape) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     /* Header */
     .header {
       height: 80px;
     }
     .logo h2 {
-      font-size: 3vw;
+      font-size: 7vw;
     }
     .navbar ul {
-      gap: 2vw;
+      gap: 3vw;
     }
     .navbar li a {
-      font-size: 1.2vw;
+      font-size: 3.5vw;
     }
     .cartbtn {
       gap: 1vw;
@@ -24,13 +22,14 @@
   
     /* Hero */
     .hero {
-      height: 80vh;
+      height: 90vh;
     }
     .hero h1 {
       font-size: 7vw;
     }
     .hero p {
       font-size: 3.5vw;
+      padding: 5vw;
     }
   
     .main-1st-right {
@@ -116,6 +115,7 @@
     }
     .ourwork-text p {
       font-size: 3.5vw;
+      padding: 2vw;
     }
     .work-boxes {
       height: 200px;
@@ -304,41 +304,45 @@
       height: 50vh;
     }
     footer p {
-      font-size: 1.2vw;
+      font-size: 3.2vw;
+      width: 100%;
+      padding: 20px;
+  }
+    #footer-logo i {
+      color: #000000;
+      font-size: 5vw;
+  }
+
+    #menu-icon{
+      display: block;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-size: 6vw;
     }
-}    
-
-@media (max-width: 900px) {
-  #menu-icon{
-    display: block;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    font-size: 6vw;
-  }
-
-  .phone-none{
-    display: none;
-
-  }
-
-  .hero img {
-    height: 60vw;
-
-  }
-
-  #close-icon{
-    font-size: 8vw;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 2px;
-    border-radius: 50px;
-    background-color: rgb(83, 83, 83);
-  }
-
-  #phone-logo{
-  display: flex;
-  }
-}
-
+  
+    .phone-none{
+      display: none;
+  
+    }
+  
+    .hero img {
+      height: 60vw;
+  
+    }
+  
+    #close-icon{
+      font-size: 8vw;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 2px;
+      border-radius: 50px;
+      background-color: rgb(83, 83, 83);
+    }
+  
+    #phone-logo{
+    display: flex;
+    }
+}  
+  
